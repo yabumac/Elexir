@@ -1,0 +1,1 @@
+https://api.telegram.org/bot8644162163:AAFukPWrFC6um6az9Umg9ZO2GgYeRaJsi9M/setWebhook?url=https://elexir-indol.vercel.app/api/webhook
