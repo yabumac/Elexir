@@ -9,12 +9,12 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 COURSES = [
-    {"name": "Adaptive and Learner-Centered Teaching Methodologies", "url": "https://app.mindsmith.ai/course/cmpbbbcf3004m04l7trxrvgh6/learn"},
-    {"name": "Educational Technology Course", "url": "https://app.mindsmith.ai/course/cmp5hsbon00tj04kziwu8xlmf/learn"},
-    {"name": "Career Employability Skills", "url": "https://app.mindsmith.ai/course/cmph6q0dh001c0bjlo1toswji/learn"},
-    {"name": "Inclusive Quality Education Practices in Conflict-Affected Areas", "url": "https://app.mindsmith.ai/course/cmph7l3ss001e0cjao5wox5kc/learn"},
-    {"name": "Digital Literacy", "url": "https://app.mindsmith.ai/course/cmpdnzj9d00yj04ih9efiqok7/learn"},
-    {"name": "Classroom Management in Crisis-Affected Settings", "url": "https://app.mindsmith.ai/course/cmpba2car003a04jvn38qz6zd/learn"},
+    {"name": "Module 1", "url": "https://app.mindsmith.ai/course/cmpba2car003a04jvn38qz6zd/learn"},
+    {"name": "Module 2", "url": "https://app.mindsmith.ai/course/cmph7l3ss001e0cjao5wox5kc/learn"},
+    {"name": "Module 3", "url": "https://app.mindsmith.ai/course/cmpbbbcf3004m04l7trxrvgh6/learn"},
+    {"name": "Module 4", "url": "https://app.mindsmith.ai/course/cmpdnzj9d00yj04ih9efiqok7/learn"},
+    {"name": "Module 5", "url": "https://app.mindsmith.ai/course/cmph6q0dh001c0bjlo1toswji/learn"},
+    {"name": "Module 6", "url": "https://app.mindsmith.ai/course/cmp5hsbon00tj04kziwu8xlmf/learn"},
 
 ]
 
