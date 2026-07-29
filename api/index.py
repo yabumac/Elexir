@@ -35,16 +35,17 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Register handlers
 ptb_app.add_handler(CommandHandler("start", start))
 
+@app.post("/")
 @app.post("/api/webhook")
 async def webhook_handler(request: Request):
     """Handles incoming updates from Telegram"""
     data = await request.json()
     update = Update.de_json(data, ptb_app.bot)
-    
+
     # Run the update through the PTB application logic
     async with ptb_app:
         await ptb_app.process_update(update)
-    
+
     return {"status": "ok"}
 
 @app.get("/")
